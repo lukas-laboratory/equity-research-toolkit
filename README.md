@@ -1,16 +1,16 @@
 # Equity Research Automation Tool
 
-Automatisierte Rendite- und Risikoanalyse für frei wählbare börsennotierte Titel — von der Kursbeschaffung über SQL-Auswertung bis zum interaktiven Dashboard.
+Automated return and risk analysis for any publicly traded stock — from data ingestion through SQL analysis to an interactive dashboard.
 
-**Live-Demo:** https://equity-research-toolkit-4cms54huuby8ekvnlj4nyw.streamlit.app
+**Live demo:** https://equity-research-toolkit-4cms54huuby8ekvnlj4nyw.streamlit.app
 
-## Funktionen
+## Features
 
-- Kursimport über yfinance, bereinigt um Splits und Dividenden
-- Speicherung in einer lokalen SQLite-Datenbank
-- Tagesrendite berechnet direkt in SQL (Window Function)
-- Kennzahlen: Volatilität, Sharpe Ratio, Max Drawdown, Beta
-- Interaktives Streamlit-Dashboard mit freier Ticker-Eingabe
+- Price data via yfinance, adjusted for splits and dividends
+- Stored in a local SQLite database
+- Daily returns calculated directly in SQL (window function)
+- Metrics: volatility, Sharpe ratio, max drawdown, beta
+- Interactive Streamlit dashboard with free ticker input
 
 ## Tech Stack
 
@@ -29,7 +29,6 @@ pip install -r requirements.txt
 streamlit run app/streamlit_app.py
 ```
 
-## Lizenz
+## License
 
 MIT
-
